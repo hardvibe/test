@@ -123,7 +123,7 @@ export default function ProductDetail() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
-          className="text-blue-600 dark:text-blue-400 font-bold text-xl mt-4"
+          className="text-red-600 dark:text-red-400 font-bold text-xl mt-4"
         >
           ${product.price}
         </motion.p>
@@ -151,7 +151,7 @@ export default function ProductDetail() {
           </button>
 
           <button
-            className="bg-blue-500 dark:bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-600 dark:hover:bg-blue-700 transition"
+            className="bg-red-500 dark:bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-600 dark:hover:bg-red-700 transition"
           >
             Купить
           </button>
