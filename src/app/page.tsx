@@ -46,7 +46,7 @@ export default function Home() {
       </h1>
 
       <Link href="/catalog">
-        <button className="mt-6 px-6 py-3 bg-blue-500 dark:bg-blue-600 text-white rounded-lg hover:bg-blue-600 dark:hover:bg-blue-700 transition">
+        <button className="mt-6 px-6 py-3 bg-red-500 dark:bg-red-600 text-white rounded-lg hover:bg-red-600 dark:hover:bg-red-700 transition">
           Перейти в каталог
         </button>
       </Link>
