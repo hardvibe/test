@@ -100,12 +100,14 @@ export default function Catalog() {
                 />
               </figure>
 
-              <h2 className="text-lg font-semibold mt-4">{product.title}</h2>
-              <p className="text-blue-600 dark:text-blue-400 font-bold text-lg mt-2">
-                ${product.price}
-              </p>
+              <div className="flex flex-col flex-grow w-full">
+                <h2 className="text-lg font-semibold mt-4 flex-grow">{product.title}</h2>
+                <p className="text-blue-600 dark:text-blue-400 font-bold text-lg mt-2">
+                  ${product.price}
+                </p>
+              </div>
 
-              <Link href={`/catalog/${product.id}`} className="mt-4 w-full">
+              <Link href={`/catalog/${product.id}`} className="mt-auto w-full">
                 <button className="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
                   Подробнее
                 </button>
